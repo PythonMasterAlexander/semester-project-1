@@ -1,0 +1,71 @@
+/*Global Style*/
+a {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+h1, h2, h3 {
+  font: italic 21px 'Open Sans', Arial sans-serif;
+}
+
+
+/*Desktop Style*/
+/*Header*/
+
+/*NB Its important to set a percentage value for padding, here we set it to 2 percentage.*/
+header, nav, main, footer {
+  padding: 0 2%;
+}
+
+/*Body*/
+
+/*Set the body to a width of 80 % when building fluid and responsive lauouts.
+-If we want to center the content in the main element we can set the main section
+  to margin: 0 auto; but in this case we want to wait with doing that
+-Establish a range for your website with the max and min width propertys set,
+  in this case a max of 1048 and a min of 480 px.NB Try and see with your layout where the 
+  site fails and where you need to set your max and width values.
+ */
+
+body {
+  background: brown;
+  font: normal 16px Arial, 'Open Sans' sans-serif;
+  width: 80%;
+  max-width: 1048px;
+  min-width: 480px;
+  margin: 0 auto;
+}
+
+/*Footer*/
+
+/*NB Remember that margin and padding calculate their value as 
+a percentage out from their parent element */
+
+footer .site-logo {
+  background: blue;
+  max-width: 25%;
+}
+
+.col1 {
+  background: red;
+  float: left;
+  padding-right: 2%;
+}
+
+.col2 {
+  background: purple;
+  float: left;
+}
+
+.col3 {
+  background: green;
+  float: left;
+}
+
+.col4 {
+  background: yellow;
+  float: right;
+}
+
+/*Tablet Style*/
+/*Mobile Style*/
