@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "preinstall": "npx only-allow pnpm"
+    "preinstall": "npx only-allow pnpm",
+    "start": "live-server ."
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,7 @@
   "devDependencies": {
     "concurrently": "^8.2.2",
     "eslint": "^8.57.0",
+    "live-server": "^1.2.2",
     "prettier": "^3.2.5",
     "sass": "^1.76.0"
   }
