@@ -9,7 +9,7 @@
     "preinstall": "npx only-allow pnpm",
     "compile-sass": "sass ./src/scss:./dist/styles",
     "watch-sass": "sass --watch ./src/scss:./dist/styles",
-    "start": "concurrently \"live-server .\"sass --watch ./src/scss:./dist/styles\"\""
+    "start": "concurrently \"live-server .\" \"sass --watch ./src/scss:./dist/styles\""
   },
   "keywords": [],
   "author": "",
