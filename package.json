@@ -7,7 +7,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "preinstall": "npx only-allow pnpm",
-    "start": "live-server ."
+    "compile-sass": "sass ./src/scss:./dist/styles",
+    "watch-sass": "sass --watch ./src/scss:./dist/styles",
+    "start": "concurrently \"live-server .\"sass --watch ./src/scss:./dist/styles\"\""
   },
   "keywords": [],
   "author": "",
