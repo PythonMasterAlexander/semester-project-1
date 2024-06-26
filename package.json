@@ -11,6 +11,12 @@
     "watch-sass": "sass --watch ./src/scss:./dist/styles",
     "start": "concurrently \"live-server .\" \"sass --watch ./src/scss:./dist/styles\""
   },
+	{
+		"engines": {
+			"node": ">=10",
+			"pnpm": ">=3"
+		}
+	},
   "keywords": [],
   "author": "",
   "license": "ISC",
