@@ -1,3 +1,4 @@
-@import 'base/main.css';
+@import 'base/index.css';
+@import 'layout/index.css'
 @import 'constants/variables.css';
 @import 'constants/defaults.css';
