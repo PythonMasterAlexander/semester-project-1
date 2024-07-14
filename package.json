@@ -5,10 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "compile-sass": "sass ./src/scss:./dist/styles",
-    "watch-sass": "sass --watch ./src/scss:./dist/styles",
-    "start": "concurrently \"live-server .\" \"sass --watch ./src/scss:./dist/styles\""
+    "start": "live-server ."
   },
   "engines": {
     "node": ">=10",
@@ -22,7 +19,6 @@
     "eslint": "^8.57.0",
     "live-server": "^1.2.2",
     "prettier": "^3.2.5",
-    "sass": "^1.76.0",
     "typescript": "^5.5.2"
   }
 }
