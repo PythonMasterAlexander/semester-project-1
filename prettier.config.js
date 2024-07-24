@@ -1,5 +1,5 @@
 const config = {
-	tabWidth: 2,
+	tabWidth: 1,
 	singleQuote: true,
 };
 export default config;
