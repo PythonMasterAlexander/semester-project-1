@@ -1,10 +1,11 @@
-# Git Ignore file
+# Prettier Ignore file
 
 # Directories #
 /node_modules
 /dist
 
 # Files #
+.gitignore
 
 # OS generated files #
 .DS_Store
